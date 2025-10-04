@@ -1,16 +1,16 @@
 [
   {
-   "q": "What is the primary disadvantage of using water as an extinguishing agent in fixed fire fighting systems?",
+   "q": "The primary disadvantage of using water as an extinguishing agent in fixed fire fighting systems?",
    "opts": ["evaporates quickly, reducing its effectiveness", "Conduct electricity, posing a risk to electrical equipment", "Highly corrosive to metal surfaces", "limited range and coverage area"],
    "answer": 1
 },
 {
-  "q": "What type of extinguishing agent is typically used in a Halon fixed fire fighting system?",
+  "q": "Type of extinguishing agent is typically used in a Halon fixed fire fighting system?",
   "opts": ["Chemical agent", "Foam", "Inert gas", "Water"],
    "answer": 2
 },
 {
-  "q": "What is the main component responsible for converting high-pressure refrigerant vapor into liquid in an HVAC system?",
+  "q": "The main component responsible for converting high-press refrigerant vapor into liquid in an HVAC system?",
   "opts": ["Expansion valve","Condenser","Compressor","Evaporator"],
   "answer": 1
 },
@@ -151,7 +151,7 @@
 },
 {
   "q": "In a naval gearbox system, what is the purpose of gear reduction?",
-  "opts": ["To convert mechanical power into electrical power","To increase engine speed","To decrease engine speed for optimal propeller performance","To regulate fuel injection timing"],
+  "opts": ["To convert mechanical power into electrical power","To increase engine speed","Decrease engine speed for optimal propeller performance","To regulate fuel injection timing"],
   "answer": 2
 },
 {
@@ -250,3 +250,4 @@
   "answer": 1
   }
 ]
+
