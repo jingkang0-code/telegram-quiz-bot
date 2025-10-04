@@ -167,11 +167,8 @@ def main():
     # IMPORTANT: blocking mode (no asyncio.run) – avoids Windows loop issues
     app.run_polling()
 
-import asyncio
-
-# at the end of send_next after send_poll(...) succeeds
-await asyncio.sleep(0.4)  # 400ms between questions
 
 if __name__ == "__main__":
     main()
+
 
