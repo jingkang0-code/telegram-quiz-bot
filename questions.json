@@ -5,7 +5,7 @@
       "It evaporates quickly, reducing its effectiveness",
       "It can conduct electricity, posing a risk to electrical equipment",
       "It is highly corrosive to metal surfaces",
-      "It has a limited range and coverage area"
+      "It has a limited range and coverage area"]
     "answer": 1
   },
   {
@@ -254,3 +254,4 @@
   "answer": 1
   }
 ]
+
