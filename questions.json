@@ -5,14 +5,15 @@
       "It evaporates quickly, reducing its effectiveness",
       "It can conduct electricity, posing a risk to electrical equipment",
       "It is highly corrosive to metal surfaces",
-      "It has a limited range and coverage area"]
+      "It has a limited range and coverage area"
+    ],
     "answer": 1
   },
   {
     "q": "What type of extinguishing agent is typically used in a Halon fixed fire fighting system?",
     "opts": ["Chemical agent", "Foam", "Inert gas", "Water"],
     "answer": 2
-  },
+},
   {
   "q": "What is the main component responsible for converting high-pressure refrigerant vapor into liquid in an HVAC system?",
   "opts": ["Expansion valve","Condenser","Compressor","Evaporator"],
@@ -100,7 +101,7 @@
 },
 {
   "q": "What is the primary purpose of a lubricating system in a marine engine?",
-  "opts": ["To cool the engine","To reduce friction between moving parts","To increase fuel efficiency","To clean the engine"],
+"opts": ["To cool the engine","To reduce friction between moving parts","To increase fuel efficiency","To clean the engine"],
   "answer": 1
 },
 {
@@ -175,7 +176,7 @@
 },
 {
   "q": "How does the ballast system contribute to fuel efficiency in ships?",
-  "opts": ["By lowering cargo weight","By reducing engine workload","By optimizing propulsion efficiency","By minimizing water resistance"],
+"opts": ["By lowering cargo weight","By reducing engine workload","By optimizing propulsion efficiency","By minimizing water resistance"],
   "answer": 3
 },
 {
@@ -254,4 +255,3 @@
   "answer": 1
   }
 ]
-
