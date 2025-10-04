@@ -1,0 +1,257 @@
+[
+  {
+    "q": "What is the primary disadvantage of using water as an extinguishing agent in fixed fire fighting systems?",
+    "opts": [
+      "It evaporates quickly, reducing its effectiveness",
+      "It can conduct electricity, posing a risk to electrical equipment",
+      "It is highly corrosive to metal surfaces",
+      "It has a limited range and coverage area"
+    ],
+    "answer": 1
+  },
+  {
+    "q": "What type of extinguishing agent is typically used in a Halon fixed fire fighting system?",
+    "opts": ["Chemical agent", "Foam", "Inert gas", "Water"],
+    "answer": 2
+},
+  {
+  "q": "What is the main component responsible for converting high-pressure refrigerant vapor into liquid in an HVAC system?",
+  "opts": ["Expansion valve","Condenser","Compressor","Evaporator"],
+  "answer": 1
+},
+{
+  "q": "In a DC distribution system, what is the purpose of rectifiers?",
+  "opts": ["To regulate voltage","To generate power","To store energy","To convert AC power to DC power"],
+  "answer": 3
+},
+{
+  "q": "The treatment of black water typically involves which of the following processes?",
+  "opts": ["Mechanical filtration","Biological treatment","Chemical disinfection","All of the above"],
+  "answer": 3
+},
+{
+  "q": "Which component is used to measure the salinity of sea water?",
+  "opts": ["Thermocouple","Manometer","Hygrometer","Salinometer"],
+  "answer": 3
+},
+{
+  "q": "The term \"hard water\" refers to water that contains high levels of:",
+  "opts": ["Potassium nitrate","Sodium chloride","Iron oxide","Calcium and magnesium ions"],
+  "answer": 3
+},
+{
+  "q": "Which component ensures a stable and constant voltage supply to ship systems in a naval ship's electrical system?",
+  "opts": ["Capacitor bank","Resistor","Voltage regulator","Inverter"],
+  "answer": 2
+},
+{
+  "q": "What is the primary function of a bilge water separator on a ship?",
+  "opts": ["To store drinking water","To treat blackwater","To treat greywater","To separate oil from water"],
+  "answer": 3
+},
+{
+  "q": "What is the advantage of parallel operation of diesel generators in a ship's power distribution system?",
+  "opts": ["Enhanced system redundancy","Lower engine maintenance","Reduced fuel consumption","Increased engine efficiency"],
+  "answer": 0
+},
+{
+  "q": "What is the primary advantage of using a distributed power distribution system in naval ships?",
+  "opts": ["Decreased complexity","Lower cost","Improved redundancy and survivability","Increased efficiency"],
+  "answer": 2
+},
+{
+  "q": "What is the primary advantage of using seawater as ballast?",
+  "opts": ["Availability","Corrosion resistance","Density","Cost-effectiveness"],
+  "answer": 0
+},
+{
+  "q": "What is the purpose of an oil sump in a marine engine?",
+  "opts": ["To cool the oil","To collect and store oil for lubrication","To store excess oil","To pressurize the oil"],
+  "answer": 1
+},
+{
+  "q": "Which of the following is NOT a method of freshwater treatment used on ships?",
+  "opts": ["Chemical flocculation","Ultraviolet sterilization","Magnetic desalination","Carbon filtration"],
+  "answer": 2
+},
+{
+  "q": "What does transient stability refer to in diesel generator systems?",
+  "opts": ["The engine's response to sudden load changes","The engine's efficiency at various loads","The engine's ability to maintain steady speed","The engine's resistance to overheating"],
+  "answer": 0
+},
+{
+  "q": "In a ship's electrical system, what component is used to convert high-voltage electricity to lower voltage levels for distribution?",
+  "opts": ["Rectifier","Relay","Transformer","Capacitor"],
+  "answer": 2
+},
+{
+  "q": "Which of the following statements is true regarding HVAC load calculation for ships?",
+  "opts": ["It is primarily based on guesswork","It considers only the cooling load","It is not necessary for HVAC design","It considers both heating and cooling loads"],
+  "answer": 3
+},
+{
+  "q": "What is the purpose of a vent pipe in a ship's black water system?",
+  "opts": ["To monitor fluid levels","To provide ventilation for the sewage treatment process","To equalize pressure","To release odors"],
+  "answer": 2
+},
+{
+  "q": "Which of the following statements is true regarding the refrigeration cycle in a chilled water system?",
+  "opts": ["Heat is absorbed by the refrigerant in the evaporator","Heat is absorbed by the refrigerant in the condenser","Heat is rejected by the refrigerant in the expansion valve","Heat is rejected by the refrigerant in the compressor"],
+  "answer": 0
+},
+{
+  "q": "What is the primary purpose of a lubricating system in a marine engine?",
+"opts": ["To cool the engine","To reduce friction between moving parts","To increase fuel efficiency","To clean the engine"],
+  "answer": 1
+},
+{
+  "q": "What is the purpose of a fire damper in a ventilation system of a naval ship?",
+  "opts": ["To regulate airflow","To increase visibility during a fire","To prevent the spread of fire and smoke","To cool down the engine room"],
+  "answer": 2
+},
+{
+  "q": "Which of the following contaminants is commonly removed from compressed air using an air dryer?",
+  "opts": ["Nitrogen","Carbon dioxide","Oxygen","Moisture"],
+  "answer": 3
+},
+{
+  "q": "Which system is responsible for integrating and displaying data from various sensors and navigation equipment on the bridge?",
+  "opts": ["Integrated Bridge System","Fire detection system","Cargo management system","Navigation management system"],
+  "answer": 0
+},
+{
+  "q": "Which of the following is a disadvantage of using seawater as a cooling medium in a marine chilled water system?",
+  "opts": ["Corrosion issues","High cost","Limited availability","Low heat transfer efficiency"],
+  "answer": 0
+},
+{
+  "q": "Which organization typically sets standards and regulations for fixed fire fighting systems on naval ships?",
+  "opts": ["International Maritime Organization (IMO)","European Union (EU)","National Aeronautics and Space Administration (NASA)","American Society of Mechanical Engineers (ASME)"],
+  "answer": 0
+},
+{
+  "q": "How does harmonic distortion impact diesel generator performance?",
+  "opts": ["It affects electrical system stability","It increases engine efficiency","It reduces fuel consumption","It enhances engine cooling"],
+  "answer": 0
+},
+{
+  "q": "In a compressed air system, what does the term \"pressure dew point\" refer to?",
+  "opts": ["The maximum pressure the air receiver can handle","The temperature at which moisture in the air begins to condense","The minimum pressure required for air tools to operate effectively","The pressure at which the air is compressed"],
+  "answer": 1
+},
+{
+  "q": "Which statement regarding ballast system operation is FALSE?",
+  "opts": ["Ballast tanks must be regularly inspected for leaks","Ballast operations should comply with environmental regulations","Ballast pumps should be tested regularly","Ballast water exchange is required in all waters"],
+  "answer": 3
+},
+{
+  "q": "What is the purpose of the evaporator in a chilled water system?",
+  "opts": ["To compress the refrigerant","To transfer heat from the chilled water to the refrigerant","To regulate the flow of refrigerant","To expand the refrigerant"],
+  "answer": 1
+},
+{
+  "q": "In a two-stroke diesel engine, how many strokes of the piston are required to complete one cycle?",
+  "opts": ["Two","Three","Four","One"],
+  "answer": 0
+},
+{
+  "q": "In a naval gearbox system, what is the purpose of gear reduction?",
+  "opts": ["To convert mechanical power into electrical power","To increase engine speed","To decrease engine speed for optimal propeller performance","To regulate fuel injection timing"],
+  "answer": 2
+},
+{
+  "q": "In a freshwater generator, which process is used to separate freshwater from seawater?",
+  "opts": ["Reverse osmosis","Distillation","Ion exchange","Filtration"],
+  "answer": 1
+},
+{
+  "q": "How does direct injection differ from indirect injection in diesel engines?",
+  "opts": ["Direct injection injects fuel directly into the combustion chamber, while indirect injection injects fuel into a pre-chamber","Direct injection improves fuel economy, while indirect injection offers better performance","Direct injection requires less maintenance compared to indirect injection","Direct injection uses higher fuel pressure than indirect injection"],
+  "answer": 0
+},
+{
+  "q": "How does a naval gearbox system accommodate changes in ship speed?",
+  "opts": ["By adjusting the propeller pitch","By changing gear ratios","By altering the number of gears engaged","By varying engine throttle settings"],
+  "answer": 1
+},
+{
+  "q": "How does the ballast system contribute to fuel efficiency in ships?",
+"opts": ["By lowering cargo weight","By reducing engine workload","By optimizing propulsion efficiency","By minimizing water resistance"],
+  "answer": 3
+},
+{
+  "q": "Which of the following factors would typically affect the efficiency of a chilled water system?",
+  "opts": ["Ambient temperature","Humidity level","Type of refrigerant","All of the above"],
+  "answer": 3
+},
+{
+  "q": "Which of the following factors can affect the performance of a compressed air system?",
+  "opts": ["Voltage of the electrical supply","All of the above","Type of lubricant used in the compressor","Ambient temperature"],
+  "answer": 1
+},
+{
+  "q": "What is the main advantage of using sea water as a coolant over freshwater?",
+  "opts": ["Higher heat capacity","Higher availability","Lower cost","Lower corrosiveness"],
+  "answer": 1
+},
+{
+  "q": "What is the purpose of a stern tube in a naval shaft line system?",
+  "opts": ["To cool the propeller shaft during operation","To regulate oil pressure within the shaft line","To adjust the ship's trim","To house the propeller shaft and provide a watertight seal"],
+  "answer": 3
+},
+{
+  "q": "Which of the following is NOT a function of the lubricating system in a marine engine?",
+  "opts": ["Cleaning engine components","Sealing the engine","Cooling the engine","Lubricating engine components"],
+  "answer": 0
+},
+{
+  "q": "What is the typical range of relative humidity maintained in HVAC systems for naval and commercial ships?",
+  "opts": ["70% - 80%","90% - 100%","40% - 60%","20% - 30%"],
+  "answer": 2
+},
+{
+  "q": "What is the primary purpose of an intercooler in a turbocharged diesel engine?",
+  "opts": ["To cool the compressed air","To increase fuel efficiency","To improve throttle response","To reduce engine noise"],
+  "answer": 0
+},
+{
+  "q": "What is the purpose of a moisture separator in a compressed air system?",
+  "opts": ["To store compressed air","To regulate the flow of air in the system","To increase the pressure of the compressed air","To remove moisture from the compressed air"],
+  "answer": 3
+},
+{
+  "q": "What is the primary factor that determines the rate of corrosion in sea water systems?",
+  "opts": ["Temperature","Pressure","Salinity","Velocity"],
+  "answer": 2
+},
+{
+  "q": "What is the primary purpose of the HVAC system's filtration system on ships?",
+  "opts": ["To control air velocity","To reduce noise levels","To regulate humidity","To remove airborne particles"],
+  "answer": 3
+},
+{
+  "q": "Which component converts the reciprocating motion of the diesel engine into rotary motion to drive the generator?",
+  "opts": ["Flywheel","Governor","Crankshaft","Alternator"],
+  "answer": 2
+},
+{
+  "q": "What is the purpose of ballast system venting?",
+  "opts": ["To reduce noise levels","To control ballast flow","To increase stability","To release excess pressure"],
+  "answer": 3
+},
+{
+  "q": "What is the main risk associated with the discharge of untreated black water from ships?",
+  "opts": ["Algal bloom","Coral reef damage","Oil spill","Marine pollution and contamination"],
+  "answer": 3
+},
+{
+  "q": "What is the purpose of a lubricating oil analysis in a marine engine?",
+  "opts": ["To check for oil leaks","To monitor oil condition and detect potential issues","To measure oil viscosity","To determine the oil level"],
+  "answer": 1
+},
+{
+  "q": "What is the purpose of synchronizing multiple diesel generators in parallel operation?",
+  "opts": ["To regulate engine temperature","To ensure balanced load sharing","To adjust engine speed","To control exhaust emissions"],
+  "answer": 1
+  }
+]
