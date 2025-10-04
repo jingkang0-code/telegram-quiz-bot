@@ -1,20 +1,15 @@
 [
   {
-    "q": "What is the primary disadvantage of using water as an extinguishing agent in fixed fire fighting systems?",
-    "opts": [
-      "It evaporates quickly, reducing its effectiveness",
-      "It can conduct electricity, posing a risk to electrical equipment",
-      "It is highly corrosive to metal surfaces",
-      "It has a limited range and coverage area"
-    ],
-    "answer": 1
-  },
-  {
-    "q": "What type of extinguishing agent is typically used in a Halon fixed fire fighting system?",
-    "opts": ["Chemical agent", "Foam", "Inert gas", "Water"],
-    "answer": 2
+   "q": "What is the primary disadvantage of using water as an extinguishing agent in fixed fire fighting systems?",
+   "opts": ["evaporates quickly, reducing its effectiveness", "Conduct electricity, posing a risk to electrical equipment", "Highly corrosive to metal surfaces", "limited range and coverage area"],
+   "answer": 1
 },
-  {
+{
+  "q": "What type of extinguishing agent is typically used in a Halon fixed fire fighting system?",
+  "opts": ["Chemical agent", "Foam", "Inert gas", "Water"],
+   "answer": 2
+},
+{
   "q": "What is the main component responsible for converting high-pressure refrigerant vapor into liquid in an HVAC system?",
   "opts": ["Expansion valve","Condenser","Compressor","Evaporator"],
   "answer": 1
