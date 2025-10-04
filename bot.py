@@ -167,8 +167,19 @@ def main():
     # IMPORTANT: blocking mode (no asyncio.run) – avoids Windows loop issues
     app.run_polling()
 
+import json, pathlib
+p = pathlib.Path("questions.json")
+data = json.loads(p.read_text(encoding="utf-8"))
+for i, q in enumerate(data, 1):
+    bad = []
+    if len(q["q"]) > 300: bad.append(f"Q{i}: question {len(q['q'])}>300")
+    for j, opt in enumerate(q["opts"], 1):
+        if len(opt) > 100: bad.append(f"Q{i} opt{j}: {len(opt)}>100")
+    if bad: print(" | ".join(bad))
+print("Done.")
 
 if __name__ == "__main__":
     main()
+
 
 
