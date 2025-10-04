@@ -118,21 +118,39 @@ async def send_next(update_or_ctx, context: ContextTypes.DEFAULT_TYPE, uid: int)
     )
     POLL_TO_QID[msg.poll.id] = (uid, qid, correct)
 
+
 async def on_poll_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     ans = update.poll_answer
-    uid, qid, correct = POLL_TO_QID.pop(ans.poll_id, (None, None, None))
-    if uid is None:
+    uid_from_update = ans.user.id
+    chosen = ans.option_ids[0] if ans.option_ids else None
+
+    entry = POLL_TO_QID.pop(ans.poll_id, None)
+
+    if entry is None:
+        # Fallback: likely a restart or second instance; don't hang
+        st = USER_STATE.get(uid_from_update)
+        if not st:
+            return
+        # Treat as wrong and continue so the quiz progresses
+        if st["idx"] < len(st["order"]):
+            st["wrong_ids"].add(st["order"][st["idx"]])
+        st["idx"] += 1
+        await send_next(update, context, uid_from_update)
         return
+
+    uid, qid, correct = entry
     st = USER_STATE.get(uid)
     if not st:
         return
-    chosen = ans.option_ids[0] if ans.option_ids else None
+
     if chosen == correct:
         st["correct_count"] += 1
     else:
         st["wrong_ids"].add(qid)
+
     st["idx"] += 1
     await send_next(update, context, uid)
+
 
 def main():
     if not QUIZ:
